@@ -1,0 +1,67 @@
+Part 3: Ethical Reflection (10%)
+Potential Biases and Mitigation Strategies:
+Dataset Biases:
+
+Demographic Underrepresentation: If training data primarily comes from specific geographic regions or demographic groups, the model may perform poorly for underrepresented populations
+
+Temporal Bias: Historical data may reflect outdated practices or biases that shouldn't be perpetuated
+
+Measurement Bias: Features might be proxies for sensitive attributes (e.g., certain code patterns correlating with team composition)
+
+IBM AI Fairness 360 Mitigation:
+
+Bias Detection: Use fairness metrics to identify disparate impact across different groups
+
+Pre-processing: Apply reweighting or disparate impact remover to create balanced datasets
+
+In-processing: Use adversarial debiasing during model training to remove sensitive attribute influence
+
+Post-processing: Calibrate decision thresholds to ensure equitable outcomes across groups
+
+Implementation Approach:
+
+Regular fairness audits using multiple metrics
+
+Diverse stakeholder review of model outcomes
+
+Transparent documentation of limitations and biases
+
+Continuous monitoring for drift and emerging biases
+
+
+
+Bonus Task: Innovation Proposal
+AI-Powered Technical Debt Assessment Tool
+
+Purpose:
+Automatically identify, quantify, and prioritize technical debt in codebases using static analysis and machine learning.
+
+Workflow:
+
+Code Analysis: Parse codebase to detect anti-patterns, code smells, and complexity hotspots
+
+ML Classification: Categorize debt types (architecture, test, documentation, code quality)
+
+Impact Prediction: Estimate maintenance costs and bug probability for debt items
+
+Prioritization Engine: Recommend remediation order based on business impact
+
+Key Features:
+
+Integration with CI/CD pipelines
+
+Technical debt visualization dashboards
+
+Refactoring suggestion generator
+
+ROI calculator for debt repayment
+
+Impact:
+
+Reduce maintenance costs by 30-40%
+
+Improve code quality metrics
+
+Enable data-driven refactoring decisions
+
+Enhance developer productivity and satisfaction
